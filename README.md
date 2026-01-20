@@ -16,6 +16,20 @@ This package lets you warp 2D points from the five source images onto `target.pn
 - `numpy`
 - `scipy`
 
+## Conda environment
+Libraries needed:
+- `python=3.8` (or newer)
+- `numpy`
+- `scipy`
+- `opencv`
+
+Example:
+
+```bash
+conda create -n warp_points python=3.10 numpy scipy opencv
+conda activate warp_points
+```
+
 ## Input format
 Provide a JSON mapping image names to point lists:
 

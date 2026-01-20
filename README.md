@@ -21,8 +21,8 @@ Provide a JSON mapping image names to point lists:
 
 ```json
 {
-  "Copy of cam1.png": [{"id": 1, "x": 123.4, "y": 567.8}],
-  "Copy of cam2.png": [[100.0, 200.0], [300.0, 400.0]]
+  "cam1.png": [{"id": 1, "x": 123.4, "y": 567.8}],
+  "cam2.png": [[100.0, 200.0], [300.0, 400.0]]
 }
 ```
 
